@@ -31,3 +31,7 @@ class RectangleTestCase(unittest.TestCase):
    def test_perimeter_mul(self):
        res = perimeter(10, 10)
        self.assertEqual(res, 40)
+
+   def test_perimeter_test(self):
+       res = perimeter(10, 10)
+       self.assertEqual(res, 134227461927498)
